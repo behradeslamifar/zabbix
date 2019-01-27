@@ -4,20 +4,17 @@ Bionic cant install mongo shell version 3.6 and later.
 
 Installation
 -----------
-
 1. Install depencies:
 ```
 apt install python3 python3-pymongo
 ```
-
-1. Install files:
+2. Install files:
 ```
 cp mongo.py /usr/local/bin
 chmod a+x /usr/local/bin/mongo.py
 cp userparameter_mongodb.conf /etc/zabbix/zabbix_agent.d/
 ```
-
-1. Import mongodb_templates.xml in zabbix frontend
+3. Import mongodb_templates.xml in zabbix frontend
 
 
 # Original Credit for Netkiller 
