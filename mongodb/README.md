@@ -6,14 +6,18 @@ Installation
 -----------
 
 1. Install depencies:
+```
 apt install python3 python3-pymongo
+```
 
-2. Install files:
+1. Install files:
+```
 cp mongo.py /usr/local/bin
 chmod a+x /usr/local/bin/mongo.py
 cp userparameter_mongodb.conf /etc/zabbix/zabbix_agent.d/
+```
 
-3. Import mongodb_templates.xml in zabbix frontend
+1. Import mongodb_templates.xml in zabbix frontend
 
 
 # Original Credit for Netkiller 
